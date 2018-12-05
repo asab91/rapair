@@ -1,0 +1,44 @@
+.portfolio
+  background: url('../img/block_3/bg-block-3.png')
+  background-size: 100%
+  position: relative
+  z-index: 1
+  padding-top: 100px
+  padding-bottom: 183px
+  &:before
+    content: ''
+    right: 0
+    top: 0
+    width: 41%
+    height: 100%
+    background-color: $light-bg-color
+    position: absolute
+    z-index: -1
+
+  
+   
+
+.slider
+  &_item
+    text-align: center
+    img
+      margin: auto
+.arrow
+  width: 45px
+  height: 19px 
+  // background-color: #000
+  position: absolute
+  bottom: -68px
+  &:hover
+    cursor: pointer
+  &_right
+    left: 50% 
+    background: url('../img/block_3/left-arrow.png') no-repeat center 
+    background-size: 100%
+  &_left
+    left: 50% 
+    transform: translateX(-45px)
+    margin-left: -15px
+    background: url('../img/block_3/right-arrow.png') no-repeat center 
+    background-size: 100%  
+   

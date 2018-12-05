@@ -1,0 +1,43 @@
+@import 'mixins'
+@import 'var'
+@import 'normalize'
+@import 'fonts'
+@import 'interface'
+
+
+.conteiner
+  width: 1170px
+  margin: 0 auto
+
+
+@import 'header'
+@import 'main'
+@import 'feedback'
+@import 'media'
+@import 'modal'
+@import 'portfolio'
+@import 'bick'
+@import 'media_1'
+@import 'price'
+@import 'footer'
+
+*, *:after, *:before
+  box-sizing: border-box
+
+
+body 
+  font-family: 'Museo Sans Light', sans-serif
+  color: $text-color
+img
+  max-width: 100%    
+.section
+  &-title
+    +Bold
+    line-height: 45px
+    text-align: center
+    margin: 0
+    margin-bottom: 100px
+  &-subtitle
+    text-align: center  
+     
+     

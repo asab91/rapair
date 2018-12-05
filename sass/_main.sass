@@ -1,0 +1,52 @@
+.main
+  background-color: $light-bg-color
+  padding: 60px 0
+  &-wrap
+    display: flex
+  &-text
+    flex-basis: 50%
+    &_title
+      font-size: 41px
+      line-height: 55px
+      margin-top: 50px
+      +Bold
+      margin-bottom: 50px
+      span
+        font-size: 20px
+        margin-top: 20px
+        display: block
+        
+  &-image
+    flex-basis: 50%
+    transform-origin: top left
+    transform: scale(1.4)
+    position: relative
+    display: row
+
+  &-advantages
+    display: row
+    flex-direction: column 
+    max-width: 350px  
+    &_item
+      // border: 2px solid $button-bg-color
+      display: flex
+      align-items: center
+      margin-bottom: 30px
+    &_img
+      min-width: 40px
+      height: 40px
+      border-radius: 50%
+      border: 2px solid $button-bg-color
+      margin-right: 30px
+      background-size: 16px
+      background-repeat: no-repeat
+      background-position: center
+      
+      &-2
+        background-image: url('../img/block_1/calculator.png')
+      &-1
+        background-image: url('../img/block_1/clock.png')
+      &-3
+        background-image: url('../img/block_1/paint-board.png')    
+
+  

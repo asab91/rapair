@@ -1,0 +1,55 @@
+.feedback
+  padding: 70px 0
+  background: url('../img/block_2/bg_2.jpg') no-repeat center right -5%
+
+.form
+  max-width: 575px
+  padding: 0
+  &_title
+    font-size: 24px
+    +Bold
+    line-height: 35px
+    margin-bottom: 45px
+  &_subtitle
+    margin-bottom: 50px
+    display: block
+  &-advantages
+    display: flex
+    display: row
+    margin-top: 30px
+    flex-direction: row
+    max-width: 575px 
+    justify-content: space-between
+    &_item
+      display: flex
+      align-items: center
+      
+    &_text
+      max-width: 250px
+      line-height: 1.5
+      span
+        +Bold
+    &_img
+      min-width: 40px
+      height: 40px
+      border-radius: 50%
+      border: 2px solid $from-border
+      margin-right: 30px
+      background-size: 16px
+      background-repeat: no-repeat
+      background-position: center
+      &-4
+        background-image: url('../img/block_2/phone-receiver.png')  
+      
+  &_input  
+    width: 270px
+    margin-bottom: 30px
+    outline: 0
+    &:first-child
+      margin-right: 30px
+  &_button
+    padding: 28px
+    display: block
+    width: 100%
+    font-size: 16px
+
