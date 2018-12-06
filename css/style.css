@@ -1593,7 +1593,6 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 100px;
 }
 
 .card {
@@ -1776,6 +1775,154 @@ hr {
 
 .contacts-advantages_img-3 {
   background-image: url("../img/footer/3.png");
+}
+
+.blood {
+  padding: 145px 0 100px 0;
+}
+
+.blood-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blood-text_title {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 55px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  margin-bottom: 60px;
+}
+
+.blood-sub {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.blood-row {
+  margin-top: -500px;
+}
+
+.blood-advantages_item {
+  margin-top: 15px;
+}
+
+.blood-advantages_text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.blood-advantages_img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #ffd200;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blood-advantages_img-1 {
+  background-image: url("../img/block_6/1.png");
+}
+
+.blood-advantages_img-2 {
+  background-image: url("../img/block_6/2.png");
+}
+
+.blood-advantages_img-3 {
+  background-image: url("../img/block_6/3.png");
+}
+
+.blood-advantages_img-4 {
+  background-image: url("../img/block_6/4.png");
+}
+
+.blood-advantages_img-5 {
+  background-image: url("../img/block_6/5.png");
+}
+
+.boold-line {
+  background-color: #ffc000;
+  height: 280px;
+  padding: 100px 0;
+  line-height: 50px;
+}
+
+.boold-text_line {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.foto {
+  padding: 70px 0;
+}
+
+.foto-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.foto_img {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.foto_title {
+  width: 315px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 15px;
+  left: 10px;
+}
+
+.document {
+  padding: 40px 0 210px 0;
+}
+
+.document-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.document_title {
+  max-width: 290px;
+  min-height: 80px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 42px;
+}
+
+.document-subtitle {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 100px;
 }
 
 *, *:after, *:before {
